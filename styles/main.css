@@ -1,0 +1,82 @@
+* {
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 70px 120px;
+}
+
+header {
+    color: #202020;
+    font-size: 3.5em;
+    margin-top: 100px;
+}
+
+.bio {
+    color: #505050;
+    font-size: 1.4em;
+    margin-top: 30px;
+}
+
+.works {
+    margin: 80px 0;
+}
+
+section h2 {
+    color: #202020;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.works-list {
+    list-style: none;
+}
+
+.works-list__item {
+    color: #202020;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+.skills-container {
+    color: #202020;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.skills-list {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.skills-list h3 {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.skill-list li {
+    font-size: 1em;
+}
+
+.skills-framework {
+    color: #505050;
+    padding-left: 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .skills-container {
+        flex-wrap: wrap;
+    }
+
+    .skills-list {
+        width: 100%;
+        margin: 13px 0;
+    }
+
+    .wrapper {
+        margin: 0 16px;
+    }
+}
