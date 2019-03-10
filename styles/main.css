@@ -5,13 +5,13 @@
 }
 
 .wrapper {
-    margin: 70px 120px;
+    margin: 60px 120px;
 }
 
 header {
     color: #202020;
     font-size: 3.5em;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .bio {
@@ -21,7 +21,7 @@ header {
 }
 
 .works {
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 section h2 {
@@ -37,8 +37,8 @@ section h2 {
 
 .works-list__item {
     color: #202020;
-    font-size: 1.1em;
-    text-decoration: underline;
+    font-size: 1em;
+    margin: 10px 0;
 }
 
 .skills-container {
@@ -64,6 +64,15 @@ section h2 {
 .skills-framework {
     color: #505050;
     padding-left: 6px;
+}
+
+.item-link {
+    font-size: 1.2em;
+    color: #202020;
+}
+
+.item-description {
+    color: #505050;
 }
 
 @media screen and (max-width: 800px) {
