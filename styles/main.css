@@ -1,4 +1,4 @@
-body {
+body,h1,h2,h3,ul {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -6,6 +6,29 @@ body {
 
 .content-wrapper {
   padding: 20rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  margin-top: 2.2rem;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  color: #120C1E;
+  margin-bottom: 0.5rem;
+}
+
+.header__sub-title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #120C1E;
+  opacity: 0.59;
+}
+
+.section {
+  margin-top: 2.2rem;
 }
 
 .section__title {
