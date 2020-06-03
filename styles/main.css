@@ -11,6 +11,12 @@ body,h1,h2,h3,ul {
 .description {
   font-size: 1.6rem;
   margin-top: 2.2rem;
+  color: #120C1E;
+}
+
+.header {
+  display: flex;
+  align-items: center;
 }
 
 .header__title {
@@ -27,6 +33,14 @@ body,h1,h2,h3,ul {
   opacity: 0.59;
 }
 
+.header__image {
+  margin-right: 2rem;
+  border-radius: 100%;
+  object-fit: contain;
+  height: 10rem;
+  width: 10rem;
+}
+
 .section {
   margin-top: 2.2rem;
 }
@@ -38,4 +52,23 @@ body,h1,h2,h3,ul {
   color: #120C1E;
   opacity: 0.59;
   text-transform: uppercase;
+}
+
+.list {
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.list--inline li {
+  display: inline;
+  margin-right: 1.2rem;
+}
+
+.list li:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.list__link {
+  color: #120C1E;
+  font-size: 1.3rem;
 }
